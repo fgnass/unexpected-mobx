@@ -1,5 +1,7 @@
 # MobX plugin for unexpected.js
 
+[![Build Status](https://travis-ci.org/fgnass/unexpected-mobx.svg?branch=master)](https://travis-ci.org/fgnass/unexpected-mobx)
+
 ## Assertions on effects triggered by actions
 
 
