@@ -1,0 +1,40 @@
+{
+  "name": "unexpected-mobx",
+  "version": "1.0.0",
+  "description": "MobX plugin for the unexpected assertion library",
+  "repository": "fgnass/unexpected-mobx",
+  "author": "Felix Gnass <fgnass@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "unexpected",
+    "plugin",
+    "assertion",
+    "testing",
+    "mobx"
+  ],
+  "main": "lib",
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "eslint src",
+    "test": "mocha --compilers js:babel-core/register",
+    "prepublish": "npm run build && npm test"
+  },
+  "peerDependencies": {
+    "mobx": "^3.1.9",
+    "unexpected": "^10.27.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^1.7.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "mobx": "^3.1.9",
+    "mocha": "^3.3.0",
+    "prettier": "^1.2.2",
+    "unexpected": "^10.27.0"
+  }
+}
