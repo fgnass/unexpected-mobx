@@ -18,7 +18,7 @@ class Store {
   }
 
   @computed get loaded() {
-  	return this.data || this.error;
+    return this.data || this.error;
   }
 }
 
@@ -29,6 +29,11 @@ Now let's assert that after invoking `fetchData` the `data`
 property eventually gets set and `error` remains `null`:
 
 ```js
+import expect from 'unexpected';
+import unexpectedMobX from 'unexpected-mobx';
+
+expect.use(unexpectedMobX);
+
 expect(store.fetchData,
   'when observing',
   () => store.loaded && store,
