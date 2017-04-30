@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/fgnass/unexpected-mobx.svg?branch=master)](https://travis-ci.org/fgnass/unexpected-mobx)
 
+![unexpected mop](https://media.giphy.com/media/tSs0otW4u5QJi/giphy-downsized-large.gif)
+
+_Image: [#unexpected #mop (via GIPHY)](https://giphy.com/gifs/unexpected-broom-mop-tSs0otW4u5QJi)_
+
 ## Assertions on effects triggered by actions
 
 
