@@ -29,10 +29,10 @@ Now let's assert that after invoking `fetchData` the `data`
 property eventually gets set and `error` remains `null`:
 
 ```js
-import expect from 'unexpected';
+import unexpected from 'unexpected';
 import unexpectedMobX from 'unexpected-mobx';
 
-expect.use(unexpectedMobX);
+const expect = unexpected.clone().use(unexpectedMobX);
 
 expect(store.fetchData,
   'when observing',
