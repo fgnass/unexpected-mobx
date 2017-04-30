@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fgnass/unexpected-mobx.svg?branch=master)](https://travis-ci.org/fgnass/unexpected-mobx)
 
-<iframe src="//giphy.com/embed/tSs0otW4u5QJi?html5=true&hideSocial=true" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+![unexpected mop](unexpected.gif)
 
 _Image: [#unexpected #mop (via GIPHY)](https://giphy.com/gifs/unexpected-broom-mop-tSs0otW4u5QJi)_
 
